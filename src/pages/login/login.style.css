@@ -1,0 +1,42 @@
+.login-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-row > div {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.login-row > div label {
+  text-transform: capitalize;
+  font-size: 0.9em;
+}
+
+.login-row a {
+  text-transform: capitalize;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.login-row a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.login-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.login-btn {
+  padding: 0.35em 2em;
+  background-color: var(--primary-400);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.35em;
+}

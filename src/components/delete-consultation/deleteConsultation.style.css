@@ -1,0 +1,42 @@
+.delete-consultation {
+  margin-top: 1em;
+}
+
+.delete-consultation p {
+  font-size: 1.15em;
+}
+
+.to-delete-id {
+  font-weight: 600;
+  color: var(--danger-400);
+}
+
+.delete-consultation > .btn-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+  gap: 2em;
+}
+
+.delete-consultation > .btn-row > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  text-decoration: none;
+  padding-block: 0.5em;
+  flex: 1;
+}
+
+.delete-consultation > .btn-row > a:first-of-type {
+  background-color: var(--danger-600);
+  color: white;
+  border-radius: 0.35em;
+}
+
+.delete-consultation > .btn-row > a:last-of-type {
+  background-color: var(--accent-600);
+  color: white;
+  border-radius: 0.35em;
+}

@@ -1,0 +1,110 @@
+.header {
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--neutral-300);
+  background-color: white;
+  position: relative;
+}
+
+.input-box {
+  width: 350px;
+  border-radius: 0.25em;
+  background-color: var(--neutral-100);
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  overflow: hidden;
+}
+
+.input-box > input {
+  border: 0;
+  outline: 0;
+  flex: 1;
+  height: inherit;
+  font: inherit;
+  background-color: transparent;
+  padding: 0.5em 1em;
+}
+
+.search-btn {
+  background-color: var(--primary-400);
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  height: inherit;
+  padding: 0.5em;
+}
+
+.header .filter-box {
+  background-color: var(--primary-400);
+  padding: 0.5em 0.75em;
+  border-radius: 0.35em;
+}
+
+.header .filter-box svg {
+  color: white;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.filter-options {
+  background-color: white;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: calc(100% + 1em);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.filter-options > h3 {
+  font-weight: 500;
+  text-decoration: underline;
+  margin-block: 0.5em;
+  text-align: center;
+}
+
+.filter-options > .form-control input {
+  width: 350px;
+  border-radius: 0.25em;
+  background-color: var(--neutral-100);
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  overflow: hidden;
+  border-bottom: 0;
+  padding: 0.5em 1em;
+  margin-bottom: 0.75em;
+}
+
+.filter-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-btn-box > a {
+  text-decoration: none;
+
+  color: white;
+  padding: 0.35em 2em;
+  border-radius: 0.35em;
+  text-transform: capitalize;
+  font-size: 1.05em;
+  margin-top: 1em;
+}
+
+.filter-btn-box > a:first-of-type {
+  background-color: var(--primary-400);
+}
+
+.filter-btn-box > a:last-of-type {
+  background-color: var(--danger-400);
+}
